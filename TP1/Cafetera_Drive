@@ -1,0 +1,18 @@
+package Cafetera;
+public class Cafetera_drive {
+    @SuppressWarnings("empty-statement")
+    public static void main(String[] args) {
+        Cafetera maquina = new Cafetera();
+        maquina.setAgua(5000);
+        maquina.setCafe(1000);
+        maquina.setCrema(1500);
+        maquina.setVasos(50);
+        
+        System.out.println("Estado inicial de la cafetera:"+maquina);
+        maquina.cantidades();
+        
+        while (maquina.capuchino());
+        System.out.println("Estado Final de la cafetera: ");
+        System.out.println(maquina);       
+    } 
+}
