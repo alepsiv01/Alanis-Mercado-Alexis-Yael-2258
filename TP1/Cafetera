@@ -80,7 +80,7 @@ public class Cafetera {
             cafe -= 15;
             vasos -- ;
             System.out.println("Cafe americano listo, recursos suficientes para realizar otro cafe americano");
-            if(agua<180 && cafe < 15 && vasos < 1){
+            if(agua<180 || cafe < 15 || vasos < 1){
                 System.out.println("Advertencia: No hay suficiente material para realizar otro cafe americano");
             }
             return true;
@@ -98,7 +98,7 @@ public class Cafetera {
             cafe -= 20;
             vasos -- ;
             System.out.println("Cafe expreso listo, recursos suficientes para realizar otro cafe americano");
-            if(agua<1200 && cafe < 20 && vasos < 1){
+            if(agua<1200 || cafe < 20 || vasos < 1){
                 System.out.println("Advertencia: No hay suficiente material para realizar otro cafe expreso");
             }
             return true;
@@ -115,7 +115,7 @@ public class Cafetera {
             crema -= 70;
             vasos -- ;
             System.out.println("Cafe capuchino listo, recursos suficientes para realizar otro cafe capuchino");
-            if(agua<180 && cafe < 15 && vasos < 1){
+            if(agua<180 || cafe < 15 || vasos < 1){
                 System.out.println("Advertencia: No hay suficiente material para realizar otro cafe capuchino");
             }
             return true;
