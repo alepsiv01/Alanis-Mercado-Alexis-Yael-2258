@@ -1,0 +1,23 @@
+package Tarea_6;
+
+public class Main {
+    public static void main(String[] args) {
+     Cuadrado cuadrado = new Cuadrado();
+
+     cuadrado.setLado(5.0);
+        System.out.println("area= "+cuadrado.calcularArea());
+        Circulo circulo = new Circulo();
+        circulo.setRadio(2.8);
+        System.out.println("Area del circulo = "+circulo.calcularArea());
+
+        AlDepArt alu = new AlDepArt();
+        System.out.println(alu);
+        alu.setNombre("Alexis");
+        alu.setArte("Musica");
+        alu.setDeporte("Gimnasia");
+        alu.ensayar("Guitarra");
+        alu.entrenar();
+        alu.presentarCompetencia("naucalli");
+
+    }
+}
