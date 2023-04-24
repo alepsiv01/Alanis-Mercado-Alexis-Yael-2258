@@ -1,4 +1,4 @@
-package Traea_6;
+package Tarea_6;
 
 public class AlDepArt extends Alumno implements Deportista,Artista{
 
