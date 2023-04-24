@@ -1,4 +1,4 @@
-package Traea_6;
+package Tarea_6;
 
     public class Alumno extends Persona{
     private int numeroCuenta;
