@@ -1,0 +1,23 @@
+package Tarea_7;
+    public class Driver {
+    public static void main(String[] args) {
+        Camion camion = new Camion("Diesel", 3);
+        System.out.println(camion);
+        System.out.println(camion.encender());
+        camion.avanzar();
+        camion.frenar();
+        System.out.println();
+
+        System.out.println("Motocicleta");
+        Moto moto = new Moto(600, "Kawasaki");
+
+        System.out.println(moto);
+        System.out.println(moto.encender());
+        moto.avanzar();
+        moto.hacerCabillito();
+        moto.frenar();
+        System.out.println(moto.apagar());
+    }
+}
+    
+
