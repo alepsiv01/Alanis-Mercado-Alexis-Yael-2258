@@ -1,4 +1,4 @@
-package Traea_6;
+package Tarea_6;
 public class Circulo implements Figura{
     private double PI = 3.1416;
     private double radio;
