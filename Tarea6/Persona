@@ -1,4 +1,4 @@
-package Traea_6;
+package Tarea_6;
 public class Persona {
     private String nombre;
     private int edad;
