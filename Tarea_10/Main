@@ -1,0 +1,8 @@
+package tarea_10;
+        public class Tarea_10 {
+    public static void main(String[] args) {
+       Ventana ventanita = new Ventana("Conversion de grados Centigrados a Farenheit");
+    }
+}
+    
+    
